@@ -13,7 +13,7 @@ def gotomain():
 genwin = Tk()
 genwin.title("Geenerate Qr code ")
 genwin.geometry("400x400")
-genwin.iconbitmap("Reader\Qr.ico")
+genwin.iconbitmap("Qr.ico")
 def generate():
     data = url.get()  # Declaring the Variables
     image = pyqrcode.create(data)  # Creating a Function

@@ -19,7 +19,7 @@ win = Tk()
 win.geometry("420x500")
 win.maxsize(width= 420, height= 500)
 win.title("Qrcode Scanner: ")
-win.iconbitmap("Reader\Qr.ico")
+win.iconbitmap("Qr.ico")
 
 
 def DecodeFrame():
@@ -60,7 +60,7 @@ generate_Qr = Button(win, text="Generate QR", fg="Black", font=('Times', '11', '
                      activebackground="green", activeforeground="white", height=2, width=12, command=generateQrCode)
 generate_Qr.place(x=280, y=80)
 
-photo=PhotoImage(file="Reader\Qricon.png")
+photo=PhotoImage(file="Qricon.png")
 photo_level=Label(image=photo)
 photo_level.place(x=30,y=150)
 

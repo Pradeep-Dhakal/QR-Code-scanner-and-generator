@@ -28,7 +28,7 @@ def showImage():
     print(data[0].data.decode("ascii"))
 decodewin = Tk()
 decodewin.geometry("400x400")
-decodewin.iconbitmap("Reader\Qr.ico")
+decodewin.iconbitmap("Qr.ico")
 
 showqrmessage = Label(decodewin,text="", )
 showqrmessage.place(x=10, y=350)
